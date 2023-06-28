@@ -1,0 +1,40 @@
+{
+  "name": "babel-plugin-jsx-to-strve",
+  "description": "This plugin converts JSX into Tagged Templates that work with strve.",
+  "version": "1.0.0",
+  "main": "dist/babel-plugin-jsx-to-strve.js",
+  "module": "dist/babel-plugin-jsx-to-strve.mjs",
+  "scripts": {
+    "build": "microbundle src/index.js -f es,cjs --target node --no-compress --no-sourcemap"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maomincoding/babel-plugin-jsx-to-strve.git"
+  },
+  "homepage": "https://github.com/maomincoding/babel-plugin-jsx-to-strve#readme",
+  "keywords": [
+    "Hyperscript Tagged Markup",
+    "JSX",
+    "jsx",
+    "strve",
+    "strve-js",
+    "tagged template",
+    "template literals",
+    "virtual dom",
+    "hyperscript",
+    "babel",
+    "babel plugin",
+    "babel-plugin"
+  ],
+  "author": "maomincoding",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.2.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}

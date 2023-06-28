@@ -5,9 +5,9 @@ This plugin converts JSX into Tagged Templates that work with strve.
 ```js
 // input:
 const state = {
-	count: 0,
+  count: 0,
 };
-const Hello = () => <h1 $key>{state.count}</h1>
+const Hello = () => <h1 $key>{state.count}</h1>;
 
 // output:
 h`<h1 $key>${state.count}</h1>`;

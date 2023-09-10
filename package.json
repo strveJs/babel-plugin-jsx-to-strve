@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-jsx-to-strve",
   "description": "This plugin converts JSX into Tagged Templates that work with strve.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "dist/babel-plugin-jsx-to-strve.js",
   "module": "dist/babel-plugin-jsx-to-strve.mjs",
   "scripts": {

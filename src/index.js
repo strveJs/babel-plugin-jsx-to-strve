@@ -3,10 +3,10 @@ import jsx from "@babel/plugin-syntax-jsx";
 /**
  * @param {Babel} babel
  * @param {object} [options]
- * @param {string} [options.tag='h']  The tagged template "tag" function name to produce.
+ * @param {string} [options.tag='html']  The tagged template "tag" function name to produce.
  */
 export default function jsxToStrveBabelPlugin({ types: t }, options = {}) {
-  const tagString = options.tag || "h";
+  const tagString = options.tag || "html";
   const tag = dottedIdentifier(tagString);
 
   function dottedIdentifier(keypath) {
